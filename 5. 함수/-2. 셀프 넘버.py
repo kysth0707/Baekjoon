@@ -1,4 +1,4 @@
-# 이해를 못함
+# 모름
 # https://www.acmicpc.net/problem/4673
 
 def d(n):
@@ -10,7 +10,7 @@ def d(n):
 a = 1
 while True:
 	Value = d(a)
-	if Value > 10000:
+	if Value > 20:
 		break
 	print(Value)
 	a += 1
